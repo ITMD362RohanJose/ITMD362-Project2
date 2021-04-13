@@ -22,13 +22,15 @@ nav li a:hover{
   transition: 1.0s ease;
 }
 .form-container{
+  position: relative;
   border-radius: 5px;
   background-color: #b2ddf083;
   padding: 20px;
   width: 50%;
   align-items: center;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 15%;
+
 }
 .data-input{
   font-family: 'Righteous', cursive;
@@ -58,6 +60,38 @@ input[type='submit']{
   margin: 20px auto;
   display: block;
   
+}
+
+.top{
+  float:left;
+  width: 30%;
+  padding: 2%;
+  box-sizing: border-box;
+  position: relative;
+  /* top: 100px; */
+  width: max-content;
+  height: max-content;
+}
+
+.top h1{
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.top p{
+ 
+  display: block;
+  font-size: 1em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
