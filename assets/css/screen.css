@@ -1,0 +1,178 @@
+body {  
+  margin: 0;  
+  background: #ffffff;  
+}  
+
+.showSlide {  
+  display: none  
+} 
+
+.showSlide img {  
+  width: 100%;  
+}  
+
+.slidercontainer {  
+  max-width: 1000px;  
+  position: relative;  
+  margin: auto;  
+}
+
+.left, .right {  
+  cursor: pointer;  
+  position: absolute;  
+  top: 50%;  
+  width: auto;  
+  padding: 16px;  
+  margin-top: -22px;  
+  color: rgb(0, 0, 0);  
+  font-weight: bold;  
+  font-size: 18px;  
+  transition: 0.6s ease;  
+  border-radius: 0 3px 3px 0;  
+}
+
+.right {  
+  right: 0;  
+  border-radius: 3px 0 0 3px;  
+}
+
+.left:hover, .right:hover {  
+  background-color: rgba(115, 115, 115, 0.8);  
+}  
+
+.content {  
+  color: #000000;  
+  font-size: 30px;  
+  padding: 8px 12px;  
+  position: absolute;  
+  top: 10px;  
+  width: 100%;  
+  text-align: center;  
+}
+
+.active {  
+  background-color: #717171;  
+} 
+
+/* Fading animation */  
+.fade {  
+  -webkit-animation-name: fade;  
+  -webkit-animation-duration: 1.5s;  
+  animation-name: fade;  
+  animation-duration: 1.5s;  
+} 
+ 
+@-webkit-keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}  
+
+@keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}
+
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: dodgerblue;
+    width: 100%;
+}
+nav li{
+    float:left;
+    position: relative; 
+    left: 20%;
+}
+nav li a{
+    position: relative; 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 80px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: rgb(19, 94, 165);
+    transition: 1.0s ease;
+}
+.form-container{
+    position: relative;
+    border-radius: 5px;
+    background-color: #b2ddf083;
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    margin-top: 15%;
+  
+}
+.data-input{
+    font-family: 'Righteous', cursive;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+input[type='email'], [type='text'] , [type='tel']{
+    background-color: #c6dff8;
+    width: 50%;
+    height: 25px;
+    border: 0cm;
+    
+}
+.mes {
+    background-color: #c6dff8;
+    width: 50%;
+    height: 50px;
+    border: 0px;
+}
+input[type='submit']{
+    background: linear-gradient(217deg, rgba(103, 209, 235, 0.897), rgba(28, 90, 223, 0.966) 70.71%),
+    linear-gradient(127deg, rgb(8, 166, 228), rgb(15, 231, 213) 70.71%),
+    linear-gradient(336deg, rgb(13, 241, 89), rgba(0, 255, 255, 0.918) 70.71%);
+    color: white;
+    margin: 20px auto;
+    display: block;
+    
+}
+  
+.top{
+    float:left;
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+    position: relative;
+    /* top: 100px; */
+    width: max-content;
+    height: max-content;
+}
+  
+.top h1{
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+  
+.top p{
+   
+    display: block;
+    font-size: 1em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+}
