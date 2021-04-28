@@ -104,12 +104,19 @@ nav li a:hover{
     background-color: rgb(19, 94, 165);
     transition: 1.0s ease;
 }
+form{
+  position: relative;
+  width: 50%;
+  align-content: center;
+  align-self: center;
+  margin: 0 auto;
+}
 .form-container{
     position: relative;
     border-radius: 5px;
     background-color: #b2ddf083;
     padding: 20px;
-    width: 50%;
+    width: 100%;
     align-items: center;
     margin: auto;
     margin-top: 25px;
