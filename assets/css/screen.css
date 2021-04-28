@@ -112,7 +112,7 @@ nav li a:hover{
     width: 50%;
     align-items: center;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 25px;
   
 }
 .data-input{
@@ -146,14 +146,9 @@ input[type='submit']{
 }
   
 .top{
-    float:left;
-    width: 30%;
-    padding: 2%;
-    box-sizing: border-box;
     position: relative;
-    /* top: 100px; */
-    width: max-content;
-    height: max-content;
+    text-align: center;
+   
 }
   
 .top h1{
@@ -172,7 +167,7 @@ input[type='submit']{
     display: block;
     font-size: 1em;
     margin-top: 0.83em;
-    margin-bottom: 0.83em;
+    margin-bottom: 0.50em;
     margin-left: 0;
     margin-right: 0;
 }
