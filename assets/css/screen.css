@@ -172,6 +172,7 @@ form{
 }
 input[type='email'], [type='text'] , [type='tel']{
     background-color: #c6dff8;
+    /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
     width: 50%;
     height: 40px;
     border: 0cm;
@@ -179,6 +180,7 @@ input[type='email'], [type='text'] , [type='tel']{
 }
 .mes {
     background-color: #c6dff8;
+    /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
     width: 50%;
     height: 75px;
     border: 0px;
