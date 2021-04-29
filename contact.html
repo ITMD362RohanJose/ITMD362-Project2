@@ -6,7 +6,7 @@
   <title>Contact Us| International Society for Universal Dialogue</title>
   <link rel="stylesheet" href="assets/css/resets.css">
   <link rel="stylesheet" href="assets/css/screen.css">
-  <script src="js/site.js" async></script>
+  <script defer src="assets/js/site.js" ></script>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
   <img src="assets/img/banner1.jpeg" alt="banner1"> 
 </div> 
 <div class="form-container">
-  <form action="#null" method="GET" >
+  <form action="#null" method="GET" id="form">
     <!-- <div > -->
       <ol>
         <li class="data-input">
@@ -43,13 +43,13 @@
           <input type="email" name="email" placeholder="Email*" required>
         </li>
         <li class="data-input">
-          <input type="text" name="country" placeholder="Country" required>
+          <input type="text" name="country" placeholder="Country*" required>
         </li>
         <li class="data-input">
           <input type="text" name="subject" placeholder="Subject*" required>
         </li>
         <li class="data-input">
-          <textarea class="mes"  placeholder="Message*"></textarea>
+          <textarea id="mes" class="mes" name="mes" placeholder="Message*"></textarea>
         </li>
       </ol>
       <input id='submit' type="submit" value="Contact">
