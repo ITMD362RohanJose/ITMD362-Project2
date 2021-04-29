@@ -144,6 +144,7 @@ form{
   align-self: center;
   margin: 5vh auto;
   float: left;
+ 
 }
 .banner2{
    /* display: inline-block; */
@@ -166,6 +167,7 @@ form{
     margin-bottom: 10px;
     text-align: center;
     margin-top: 25px;
+  
    
    
     
@@ -176,6 +178,22 @@ input[type='email'], [type='text'] , [type='tel']{
     width: 50%;
     height: 40px;
     border: 0cm;
+
+    
+}
+
+::placeholder { 
+  color: black;
+
+}
+
+select{
+  background-color: #c6dff8;
+  /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
+  width: 50%;
+  height: 40px;
+  border: 0cm;
+  margin-bottom: 25px;
     
 }
 .mes {
