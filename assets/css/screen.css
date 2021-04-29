@@ -133,7 +133,7 @@ nav li a:hover{
   margin-top: 10%; */
   position: relative;
   width: 50%;
-  margin-top: 5vh;
+  margin: 5vh 0;
   align-items: center;
   float:left;
   background-color: #b2ddf083;
