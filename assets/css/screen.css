@@ -193,7 +193,9 @@ input[type='submit']{
     color: white;
     margin: 20px auto;
     display: block;
-    
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
 }
 
   
