@@ -104,23 +104,65 @@ nav li a:hover{
     background-color: rgb(19, 94, 165);
     transition: 1.0s ease;
 }
-form{
+
+.banner1{
+  /* display: inline-block; */
+  position: relative;
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  float:left;
+}
+.banner1 img{
+  position: relative;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  float: left;
+}
+
+.form-container{
+  /* display: inline-block; 
   position: relative;
   width: 50%;
+  height: 100%;
+  background-color: #b2ddf083;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 10%; */
+  position: relative;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  float:left;
+  background-color: #b2ddf083;
+}
+
+form{ 
+  position: relative;
+  width: 100%;
+  height: 100%;
   align-content: center;
   align-self: center;
   margin: 0 auto;
+  float: left;
 }
-.form-container{
-    position: relative;
-    border-radius: 5px;
-    background-color: #b2ddf083;
-    padding: 20px;
-    width: 100%;
-    align-items: center;
-    margin: auto;
-    margin-top: 25px;
-  
+.banner2{
+   /* display: inline-block; */
+  position: relative;
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  float: left;
+}
+.banner2 img{
+  position: relative;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  float: right;
 }
 .data-input{
     font-family: 'Righteous', cursive;
@@ -151,14 +193,18 @@ input[type='submit']{
     display: block;
     
 }
+
   
-.top{
-    position: relative;
+.contact-top{
+    position: relative; 
+    display: inline-block;
     text-align: center;
+    width: 100%;
+    height: 20%;
    
 }
   
-.top h1{
+.contact-top h1{
     text-align: center;
     display: block;
     font-size: 2em;
@@ -169,7 +215,7 @@ input[type='submit']{
     font-weight: bold;
 }
   
-.top p{
+.contact-top p{
    
     display: block;
     font-size: 1em;
