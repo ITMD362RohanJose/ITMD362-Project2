@@ -165,21 +165,22 @@ form{
     font-family: 'Righteous', cursive;
     margin-bottom: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
+   
    
     
 }
 input[type='email'], [type='text'] , [type='tel']{
     background-color: #c6dff8;
     width: 50%;
-    height: 25px;
+    height: 40px;
     border: 0cm;
     
 }
 .mes {
     background-color: #c6dff8;
     width: 50%;
-    height: 50px;
+    height: 75px;
     border: 0px;
 }
 input[type='submit']{
@@ -187,7 +188,7 @@ input[type='submit']{
     linear-gradient(127deg, rgb(8, 166, 228), rgb(15, 231, 213) 70.71%),
     linear-gradient(336deg, rgb(13, 241, 89), rgba(0, 255, 255, 0.918) 70.71%);
     color: white;
-    margin: 20px auto;
+    margin: 35px auto;
     display: block;
     width: 150px;
     height: 50px;
@@ -201,6 +202,7 @@ input[type='submit']{
     text-align: center;
     width: 100%;
     height: 20%;
+    margin: 20px;
    
 }
   
