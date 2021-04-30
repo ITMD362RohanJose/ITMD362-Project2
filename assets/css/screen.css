@@ -15,10 +15,99 @@ h1 {
   text-align: center;
   font-weight: 600;
   font-size: 32px;
-  padding-bottom: 22px;
+  margin-bottom: 25px;
 }
-h2 {
-  font-size: 23px;
+#abouth {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+#answer {
+  font-size: 30px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+#man-fig {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#man, #statue, #monk, #water {
+  width: 200px;
+}
+#man {
+  border-radius: 10px;
+  width: 400px;
+  box-shadow:
+    0 10px 30px -12px rgba(0,0,0,.42),
+    0 4px 25px 0px rgba(0,0,0,.12),
+    0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+#question {
+  display: table;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: left;
+  list-style-type: disc;
+}
+#image-crop {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:
+    0 10px 30px -12px rgba(0,0,0,.42),
+    0 4px 25px 0px rgba(0,0,0,.12),
+    0 8px 10px -5px rgba(0,0,0,.2);
+}
+#statue {
+  width: auto;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-left: -50%;
+  display: inline;
+}
+
+#history {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+#history-txt {
+  margin: auto;
+  width: 70%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#image-bottom {
+  display: flex;
+  justify-content: center;
+}
+#monk, #water {
+  width: 300px;
+  box-shadow:
+    0 10px 30px -12px rgba(0,0,0,.42),
+    0 4px 25px 0px rgba(0,0,0,.12),
+    0 8px 10px -5px rgba(0,0,0,.2);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#monk{
+  margin-right: 40px;
+}
+#water{
+  margin-left: 40px;
 }
 
 #logo {
@@ -26,6 +115,13 @@ h2 {
   width: 115px;
   padding: 5px;
 }
+
+#mission {
+  font-size: 30px;
+  float: right;
+  width: 50%;
+}
+
 .showSlide {
   display: none
 }
