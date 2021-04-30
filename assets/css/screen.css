@@ -24,8 +24,23 @@ h1 {
   margin-bottom: 15px;
 }
 
+#man-fig {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
 #man, #statue, #monk, #water {
   width: 200px;
+}
+#man {
+  border-radius: 10px;
+  width: 400px;
+  box-shadow:
+    0 10px 30px -12px rgba(0,0,0,.42),
+    0 4px 25px 0px rgba(0,0,0,.12),
+    0 8px 10px -5px rgba(0,0,0,.2);
 }
 
 #logo {
@@ -34,9 +49,10 @@ h1 {
   padding: 5px;
 }
 
-
-#mission{
-font-size: 30px;
+#mission {
+  font-size: 30px;
+  float: right;
+  width: 50%;
 }
 
 .showSlide {
