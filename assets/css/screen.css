@@ -98,7 +98,7 @@ body {
   color: white;
   text-align: center;
   background-color: dodgerblue;
-  padding: 18px; /* 11px / 18px = 0.61111111111em */
+  padding: 18px; 
 }
 .nav a:hover {
   background-color: rgb(19, 94, 165);
