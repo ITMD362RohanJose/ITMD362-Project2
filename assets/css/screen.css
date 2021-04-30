@@ -21,6 +21,10 @@ h2 {
   font-size: 23px;
 }
 
+#man, #statue, #monk, #water {
+  width: 200px;
+}
+
 #logo {
   height: 110px;
   width: 115px;
