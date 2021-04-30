@@ -1,113 +1,108 @@
-body {  
-  margin: 0;  
-  background: #ffffff;  
-}  
+h1 {
+  text-align: center;
+}
+body {
+  margin: 0;
+  background: #ffffff;
+}
 
 #logo {
   height: 110px;
   width: 115px;
   padding: 5px;
 }
-.showSlide {  
-  display: none  
-} 
-
-.showSlide img {  
-  width: 100%;  
-}  
-
-.slidercontainer {  
-  max-width: 1000px;  
-  position: relative;  
-  margin: auto;  
+.showSlide {
+  display: none
 }
 
-.left, .right {  
-  cursor: pointer;  
-  position: absolute;  
-  top: 50%;  
-  width: auto;  
-  padding: 16px;  
-  margin-top: -22px;  
-  color: rgb(0, 0, 0);  
-  font-weight: bold;  
-  font-size: 18px;  
-  transition: 0.6s ease;  
-  border-radius: 0 3px 3px 0;  
+.showSlide img {
+  width: 100%;
 }
 
-.right {  
-  right: 0;  
-  border-radius: 3px 0 0 3px;  
+.slidercontainer {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-.left:hover, .right:hover {  
-  background-color: rgba(115, 115, 115, 0.8);  
-}  
-
-.content {  
-  color: #000000;  
-  font-size: 30px;  
-  padding: 8px 12px;  
-  position: absolute;  
-  top: 10px;  
-  width: 100%;  
-  text-align: center;  
+.left, .right {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
 }
 
-.active {  
-  background-color: #717171;  
-} 
-
-/* Fading animation */  
-.fade {  
-  -webkit-animation-name: fade;  
-  -webkit-animation-duration: 1.5s;  
-  animation-name: fade;  
-  animation-duration: 1.5s;  
-} 
- 
-@-webkit-keyframes fade {  
-  from {  
-      opacity: .4  
-  }  
-  to {  
-      opacity: 1  
-  }  
-}  
-
-@keyframes fade {  
-  from {  
-      opacity: .4  
-  }  
-  to {  
-      opacity: 1  
-  }  
+.right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
+.left:hover, .right:hover {
+  background-color: rgba(115, 115, 115, 0.8);
+}
 
-nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: dodgerblue;
-    width: 100%;
+.content {
+  color: #000000;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
 }
-nav li{
-    float:left;
-    position: relative; 
-    left: 20%;
+
+.active {
+  background-color: #717171;
 }
-nav li a{
-    position: relative; 
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 80px;
-    text-decoration: none;
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
-nav li a:hover{
-    background-color: rgb(19, 94, 165);
-    transition: 1.0s ease;
+
+@-webkit-keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.nav li {
+  /*padding-bottom: ?;*/
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  background-color: dodgerblue;
+  padding: 18px; /* 11px / 18px = 0.61111111111em */
+}
+.nav a:hover {
+  background-color: rgb(19, 94, 165);
+  transition: 1.0s ease;
 }
 
 .banner1{
@@ -136,7 +131,7 @@ nav li a:hover{
   background-color: #b2ddf083;
 }
 
-form{ 
+form{
   position: relative;
   width: 100%;
   /* height: 100%; */
@@ -144,7 +139,7 @@ form{
   align-self: center;
   margin: 5vh auto;
   float: left;
- 
+
 }
 .banner2{
    /* display: inline-block; */
@@ -167,10 +162,10 @@ form{
     margin-bottom: 10px;
     text-align: center;
     margin-top: 25px;
-  
-   
-   
-    
+
+
+
+
 }
 input[type='email'], [type='text'] , [type='tel']{
     background-color: #c6dff8;
@@ -179,10 +174,10 @@ input[type='email'], [type='text'] , [type='tel']{
     height: 40px;
     border: 0cm;
 
-    
+
 }
 
-::placeholder { 
+::placeholder {
   color: black;
 
 }
@@ -194,7 +189,7 @@ select{
   height: 40px;
   border: 0cm;
   margin-bottom: 25px;
-    
+
 }
 .mes {
     background-color: #c6dff8;
@@ -215,17 +210,17 @@ input[type='submit']{
     border-radius: 10px;
 }
 
-  
+
 .contact-top{
-    position: relative; 
+    position: relative;
     display: inline-block;
     text-align: center;
     width: 100%;
     height: 20%;
     margin: 20px;
-   
+
 }
-  
+
 .contact-top h1{
     text-align: center;
     display: block;
@@ -236,9 +231,9 @@ input[type='submit']{
     margin-right: 0;
     font-weight: bold;
 }
-  
+
 .contact-top p{
-   
+
     display: block;
     font-size: 1em;
     margin-top: 0.83em;
@@ -247,10 +242,27 @@ input[type='submit']{
     margin-right: 0;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen and (min-width: 415px) {
+  .nav {
+    display: flex
+  }
+  .nav li {
+    text-align: center;
+    float: left;
+    width: 33.3333333333%;
+    flex: 1 1 auto;
+  }
+  @supports (display: flex) {
+      .nav li {
+        width: auto;
+      }
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
     .banner1{
       /* display: inline-block; */
       position: relative;
@@ -267,7 +279,7 @@ input[type='submit']{
       padding: 10px;
       float: left;
     }
-    
+
     .form-container{
       position: relative;
       width: 50%;
@@ -276,8 +288,8 @@ input[type='submit']{
       float:left;
       background-color: #b2ddf083;
     }
-    
-    form{ 
+
+    form{
       position: relative;
       width: 100%;
       /* height: 100%; */
@@ -285,7 +297,7 @@ input[type='submit']{
       align-self: center;
       margin: 5vh auto;
       float: left;
-     
+
     }
     .banner2{
        /* display: inline-block; */
