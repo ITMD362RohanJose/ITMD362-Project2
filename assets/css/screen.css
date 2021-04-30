@@ -17,7 +17,9 @@ h1 {
   font-size: 32px;
   padding-bottom: 22px;
 }
-
+h2 {
+  font-size: 23px;
+}
 
 #logo {
   height: 110px;
