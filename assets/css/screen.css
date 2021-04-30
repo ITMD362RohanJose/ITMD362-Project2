@@ -51,6 +51,7 @@ h1 {
 #question {
   display: table;
   margin: 0 auto;
+  margin-top: 15px;
   text-align: left;
   list-style-type: disc;
 }
@@ -81,6 +82,32 @@ h1 {
   font-size: 30px;
   text-align: center;
   padding-top: 20px;
+}
+#history-txt {
+  margin: auto;
+  width: 70%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#image-bottom {
+  display: flex;
+  justify-content: center;
+}
+#monk, #water {
+  width: 300px;
+  box-shadow:
+    0 10px 30px -12px rgba(0,0,0,.42),
+    0 4px 25px 0px rgba(0,0,0,.12),
+    0 8px 10px -5px rgba(0,0,0,.2);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#monk{
+  margin-right: 40px;
+}
+#water{
+  margin-left: 40px;
 }
 
 #logo {
