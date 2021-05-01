@@ -17,7 +17,7 @@ h1 {
   font-size: 32px;
   margin-bottom: 25px;
 }
-#contact-top p{
+.contact-top p{
   text-align: center;
   margin: auto;
 }
@@ -457,6 +457,9 @@ a.menu {
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
+    .contact-top h1, p {
+      text-align: center;
+    }
     .banner1{
       /* display: inline-block; */
       position: relative;
@@ -509,6 +512,7 @@ a.menu {
       padding: 10px;
       float: right;
     }
+   
 }
 
 @media only screen and (max-width: 1000px) {
