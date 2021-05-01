@@ -360,7 +360,7 @@ input[type='submit']{
 }
 
 .contact-top p{
-
+  text-align: center;
     display: block;
     font-size: 1em;
     margin-top: 0.83em;
