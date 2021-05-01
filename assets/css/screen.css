@@ -203,8 +203,14 @@ h1 {
   }
 }
 
+.nav {
+  display: flex
+}
 .nav li {
-  /*padding-bottom: ?;*/
+  text-align: center;
+  float: left;
+  width: 33.3333333333%;
+  flex: 1 1 auto;
 }
 .nav a {
   display: block;
@@ -357,7 +363,7 @@ input[type='submit']{
     margin-right: 0;
 }
 
-@media only screen and (min-width: 415px) {
+/*@media only screen and (min-width: 415px) {
   .nav {
     display: flex
   }
@@ -373,6 +379,14 @@ input[type='submit']{
         width: auto;
       }
     }
+}
+meta nav bar is stacked nav bar
+*/
+
+@media only screen and (max-width: 314px) {
+  .nav li{
+    font-size: 14px;
+  }
 }
 @media only screen and (max-width: 450px) {
   #man {
