@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap");
-/* @import url('https://basehold.it/22'); */
+
 html {
   font-family: "EB Garamond", "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 18px;
@@ -54,6 +54,7 @@ h1 {
   margin-top: 15px;
   text-align: left;
   list-style-type: disc;
+
 }
 #image-crop {
   width: 300px;
@@ -426,4 +427,18 @@ input[type='submit']{
       padding: 10px;
       float: right;
     }
+}
+
+@media only screen and (max-width: 1000px) {
+  #man-fig {
+    flex-direction: column;
+  }
+  #question {
+    width: 70%;
+  }
+  #mission {
+    margin-top: 15px;
+    text-align: justify;
+    text-justify: auto;
+  }
 }
