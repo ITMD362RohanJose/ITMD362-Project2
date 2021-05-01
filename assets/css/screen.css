@@ -459,6 +459,7 @@ a.menu {
   and (-webkit-min-device-pixel-ratio: 3) {
     .contact-top h1, p {
       text-align: center;
+      margin: 0 auto;
     }
     .banner1{
       /* display: inline-block; */
@@ -526,16 +527,28 @@ a.menu {
     margin-top: 15px;
     font-size: 25px;
   }
+  .contact-top h1, p {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 1200px) {
   #answer{
     text-align: center;
     margin-left: 0px;
   }
+  .contact-top h1, p {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 @media only screen and (min-width: 1600px) {
   body{
     margin: auto;
     width: 1600px;
+  }
+  .contact-top h1, p {
+    text-align: center;
+    margin: 0 auto;
   }
 }
