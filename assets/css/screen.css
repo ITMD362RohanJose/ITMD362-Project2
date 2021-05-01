@@ -173,6 +173,9 @@ h1 {
   text-align: center;
 }
 
+main{
+  margin-bottom: 60px;
+}
 .active {
   background-color: #717171;
 }
@@ -218,7 +221,7 @@ h1 {
   overflow: hidden;
   color: white;
   text-align: center;
-  background-color: dodgerblue;
+  background-color: #2586F2; /* RGB: 9–92–233  dodgeblue*/
   padding: 18px;
 }
 .nav a:hover {
@@ -234,6 +237,7 @@ h1 {
   align-items: center;
   box-sizing: border-box;
   float:left;
+  margin-bottom: 60px;
 }
 .banner1 img{
   position: relative;
@@ -249,7 +253,8 @@ h1 {
   margin: 5vh 0;
   align-items: center;
   float:left;
-  background-color: #b2ddf083;
+  background-color: #7DBAFF;
+  border-radius: 10px;
 }
 
 form{
@@ -270,6 +275,7 @@ form{
   align-items: center;
   box-sizing: border-box;
   float: left;
+  margin-bottom: 60px;
 }
 .banner2 img{
   position: relative;
@@ -405,6 +411,43 @@ meta nav bar is stacked nav bar
     margin: 10px auto;
   }
 }
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 60px;
+  background-color: #a4bfdd;
+  
+}
+
+.footer-text-left {
+  font-size:25px;
+  padding-left:40px;
+  float:left;
+  word-spacing:20px;
+  margin: 15px auto;
+ 
+}
+
+a.menu {
+ color: #00116e;
+  font-size:20px;
+}
+.footer-content-right {
+  padding-right:40px;
+  margin: 5px auto;
+  float:right;
+}
+
+.icon-style {
+  height:40px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+
 
 @media only screen
   and (min-device-width: 375px)
