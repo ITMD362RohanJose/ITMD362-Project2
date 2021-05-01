@@ -25,8 +25,8 @@ h1 {
 }
 #answer {
   font-size: 30px;
-  text-align: center;
-  margin-right: 40px;
+  margin-left: 450px;
+  text-decoration: underline;
 }
 
 #man-fig {
@@ -54,8 +54,11 @@ h1 {
   margin-top: 15px;
   text-align: left;
   list-style-type: disc;
-
 }
+#question li {
+  margin-bottom: 3px;
+}
+
 #image-crop {
   width: 300px;
   height: 300px;
@@ -364,11 +367,29 @@ input[type='submit']{
     width: 33.3333333333%;
     flex: 1 1 auto;
   }
+
   @supports (display: flex) {
       .nav li {
         width: auto;
       }
     }
+}
+@media only screen and (max-width: 450px) {
+  #man {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 725px) {
+  #mission {
+    width: 90%;
+  }
+  #image-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+  #monk, #water {
+    margin: 10px auto;
+  }
 }
 
 @media only screen
@@ -438,7 +459,12 @@ input[type='submit']{
   }
   #mission {
     margin-top: 15px;
-    text-align: justify;
-    text-justify: auto;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #answer{
+    text-align: center;
+    margin-left: 0px;
   }
 }
