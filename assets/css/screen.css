@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap");
-
 html {
   font-family: "EB Garamond", "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 18px;
   line-height: 22px;
   color: #000;
 }
+
 body {
   margin: 0;
   background: #ffffff;
@@ -35,7 +35,7 @@ h1 {
 }
 
 #marq {
-  width: 100%; 
+  width: 100%;
   height: 100%;
 }
 
@@ -44,16 +44,18 @@ main {
   height: 100%;
 }
 
-.contact-top p{
+.contact-top p {
   text-align: center;
   margin: auto;
 }
+
 #abouth {
   font-size: 50px;
   text-align: center;
   padding-top: 30px;
   margin-bottom: 15px;
 }
+
 #answer {
   font-size: 30px;
   margin-left: 450px;
@@ -70,13 +72,11 @@ main {
 #man, #statue, #monk, #water {
   width: 200px;
 }
+
 #man {
   border-radius: 10px;
   width: 400px;
-  box-shadow:
-    0 10px 30px -12px rgba(0,0,0,.42),
-    0 4px 25px 0px rgba(0,0,0,.12),
-    0 8px 10px -5px rgba(0,0,0,.2);
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, .42), 0 4px 25px 0px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
 }
 
 #question {
@@ -86,6 +86,7 @@ main {
   text-align: left;
   list-style-type: disc;
 }
+
 #question li {
   margin-bottom: 3px;
 }
@@ -98,11 +99,9 @@ main {
   border-radius: 50%;
   margin: auto;
   margin-top: 20px;
-  box-shadow:
-    0 10px 30px -12px rgba(0,0,0,.42),
-    0 4px 25px 0px rgba(0,0,0,.12),
-    0 8px 10px -5px rgba(0,0,0,.2);
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, .42), 0 4px 25px 0px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
 }
+
 #statue {
   width: auto;
   height: 100%;
@@ -118,6 +117,7 @@ main {
   text-align: center;
   padding-top: 20px;
 }
+
 #history-txt {
   margin: auto;
   width: 70%;
@@ -129,19 +129,19 @@ main {
   display: flex;
   justify-content: center;
 }
+
 #monk, #water {
   width: 300px;
-  box-shadow:
-    0 10px 30px -12px rgba(0,0,0,.42),
-    0 4px 25px 0px rgba(0,0,0,.12),
-    0 8px 10px -5px rgba(0,0,0,.2);
-    margin-bottom: 15px;
-    border-radius: 10px;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, .42), 0 4px 25px 0px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
-#monk{
+
+#monk {
   margin-right: 40px;
 }
-#water{
+
+#water {
   margin-left: 40px;
 }
 
@@ -204,14 +204,16 @@ main {
   text-align: center;
 }
 
-main{
+main {
   margin-bottom: 60px;
 }
+
 .active {
   background-color: #717171;
 }
 
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -221,56 +223,61 @@ main{
 
 @-webkit-keyframes fade {
   from {
-      opacity: .4
+    opacity: .4
   }
   to {
-      opacity: 1
+    opacity: 1
   }
 }
 
 @keyframes fade {
   from {
-      opacity: .4
+    opacity: .4
   }
   to {
-      opacity: 1
+    opacity: 1
   }
 }
 
 .nav {
   display: flex
 }
+
 .nav li {
   text-align: center;
   float: left;
   width: 33.3333333333%;
   flex: 1 1 auto;
 }
+
 .nav a {
   display: block;
   text-decoration: none;
   overflow: hidden;
   color: white;
   text-align: center;
-  background-color: #2586F2; /* RGB: 9–92–233  dodgeblue*/
+  background-color: #2586F2;
+  /* RGB: 9–92–233  dodgeblue*/
   padding: 18px;
 }
+
 .nav a:hover {
   background-color: rgb(19, 94, 165);
   transition: 1.0s ease;
 }
 
-.banner1{
+.banner1 {
   /* display: inline-block; */
   position: relative;
   width: 25%;
   height: 100%;
   align-items: center;
   box-sizing: border-box;
-  float:left;
+  float: left;
   margin-bottom: 60px;
 }
-.banner1 img{
+
+.banner1 img {
   position: relative;
   width: 80%;
   height: 100%;
@@ -278,17 +285,17 @@ main{
   float: left;
 }
 
-.form-container{
+.form-container {
   position: relative;
   width: 50%;
   margin: 5vh 0;
   align-items: center;
-  float:left;
+  float: left;
   background-color: #7DBAFF;
   border-radius: 10px;
 }
 
-form{
+form {
   position: relative;
   width: 100%;
   /* height: 100%; */
@@ -296,10 +303,10 @@ form{
   align-self: center;
   margin: 5vh auto;
   float: left;
-
 }
-.banner2{
-   /* display: inline-block; */
+
+.banner2 {
+  /* display: inline-block; */
   position: relative;
   width: 25%;
   height: 100%;
@@ -308,92 +315,85 @@ form{
   float: left;
   margin-bottom: 60px;
 }
-.banner2 img{
+
+.banner2 img {
   position: relative;
   width: 80%;
   height: 100%;
   padding: 10px;
   float: right;
 }
-.data-input{
-    font-family: 'Righteous', cursive;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-top: 25px;
 
-
-
-
+.data-input {
+  font-family: 'Righteous', cursive;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 25px;
 }
-input[type='email'], [type='text'] , [type='tel']{
-    background-color: #c6dff8;
-    /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
-    width: 50%;
-    height: 40px;
-    border: 0cm;
 
-
+input[type='email'], [type='text'], [type='tel'] {
+  background-color: #c6dff8;
+  /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
+  width: 50%;
+  height: 40px;
+  border: 0cm;
 }
 
 ::placeholder {
   color: black;
-
 }
 
-select{
+select {
   background-color: #c6dff8;
   /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
   width: 50%;
   height: 40px;
   border: 0cm;
   margin-bottom: 25px;
-
 }
+
 .mes {
-    background-color: #c6dff8;
-    /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
-    width: 50%;
-    height: 75px;
-    border: 0px;
-}
-input[type='submit']{
-    background: linear-gradient(217deg, rgba(103, 209, 235, 0.897), rgba(28, 90, 223, 0.966) 70.71%),
-    linear-gradient(127deg, rgb(8, 166, 228), rgb(15, 231, 213) 70.71%),
-    linear-gradient(336deg, rgb(13, 241, 89), rgba(0, 255, 255, 0.918) 70.71%);
-    color: white;
-    margin: 35px auto;
-    display: block;
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
+  background-color: #c6dff8;
+  /* background-image: linear-gradient(to right, rgb(104, 181, 226), rgb(41, 163, 219)); */
+  width: 50%;
+  height: 75px;
+  border: 0px;
 }
 
-
-.contact-top{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    height: 20%;
-    margin: 20px 0px;
-
+input[type='submit'] {
+  background: linear-gradient(217deg, rgba(103, 209, 235, 0.897), rgba(28, 90, 223, 0.966) 70.71%), linear-gradient(127deg, rgb(8, 166, 228), rgb(15, 231, 213) 70.71%), linear-gradient(336deg, rgb(13, 241, 89), rgba(0, 255, 255, 0.918) 70.71%);
+  color: white;
+  margin: 35px auto;
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
 }
 
-.contact-top h1{
-    text-align: center;
-    display: block;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.contact-top p{
+.contact-top {
+  position: relative;
+  display: inline-block;
   text-align: center;
-    display: block;
-    font-size: 1em;
-    margin-top: 0.83em;
-    margin-bottom: 0.50em;
-    margin-left: 0;
-    margin-right: 0;
+  width: 100%;
+  height: 20%;
+  margin: 20px 0px;
+}
+
+.contact-top h1 {
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contact-top p {
+  text-align: center;
+  display: block;
+  font-size: 1em;
+  margin-top: 0.83em;
+  margin-bottom: 0.50em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*@media only screen and (min-width: 415px) {
@@ -416,20 +416,22 @@ meta nav bar is stacked nav bar
 */
 
 @media only screen and (max-width: 314px) {
-  .nav li{
+  .nav li {
     font-size: 14px;
   }
 }
+
 @media only screen and (max-width: 450px) {
   #man {
     width: 300px;
   }
 }
+
 @media only screen and (max-width: 725px) {
   #mission {
     width: 90%;
   }
-  #image-bottom{
+  #image-bottom {
     display: flex;
     flex-direction: column;
   }
@@ -439,43 +441,38 @@ meta nav bar is stacked nav bar
 }
 
 .footer {
-  position:fixed;
-  bottom:0;
-  left:0;
-  width:100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: 60px;
   background-color: #a4bfdd;
-  
 }
 
 .footer-text-left {
-  font-size:25px;
-  padding-left:40px;
-  float:left;
-  word-spacing:20px;
+  font-size: 25px;
+  padding-left: 40px;
+  float: left;
+  word-spacing: 20px;
   margin: 15px auto;
- 
 }
 
 a.menu {
- color: #00116e;
-  font-size:20px;
+  color: #00116e;
+  font-size: 20px;
 }
+
 .footer-content-right {
-  padding-right:40px;
+  padding-right: 40px;
   margin: 5px auto;
-  float:right;
+  float: right;
 }
 
 .icon-style {
-  height:40px;
-  margin-left:20px;
-  margin-top:5px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
-
-
-
-
 
 @media only screen and (max-width: 1000px) {
   #man-fig {
@@ -493,8 +490,9 @@ a.menu {
     margin: 0 auto;
   }
 }
+
 @media only screen and (max-width: 1200px) {
-  #answer{
+  #answer {
     text-align: center;
     margin-left: 0px;
   }
@@ -503,8 +501,9 @@ a.menu {
     margin: 0 auto;
   }
 }
+
 @media only screen and (min-width: 1600px) {
-  body{
+  body {
     margin: auto;
     width: 1600px;
   }
